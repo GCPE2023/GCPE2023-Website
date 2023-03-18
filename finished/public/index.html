@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Labrada:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="container">
+    <section id="sidebar">
+      <div id="sidebar-controller">
+        <div id="logo">
+          <h1 id="logo-text">ET</h1>
+          <p id="logo-slogan">EXPENSE TRACKER</p>
+        </div>
+        <div id="sidebar-menu">
+          <a class="sidebar-link active " href="#">Dashboard</a>
+          <a class="sidebar-link" href="login.html">Log In</a>
+        </div>
+      </div>
+    </section>
+    <section id="dashboard">
+      <div id="profile">
+        <img src="./profile.jpg" alt="profile picture">
+        <div id="info">
+          <div id="personal">
+            <h1 id="name">Your Name Here</h1>
+            <div id="location"><span id="state">Your State</span>, <span id="country">Your Country</span></div>
+          </div>
+          <div id="socials">
+            <a href="https://wa.me/603108866165">
+              <img src="./whatsapp.svg" width="25px" alt="Whatsapp Link">
+            </a>
+            <a href="mailto: corporate@um.edu.my">
+              <img src="./email.svg" width="25px" alt="Email link">
+            </a>
+          </div>
+        </div>
+        <hr class="spacer">
+        <div id="expenses">
+          <h1>My Expenses</h1>
+          <img src="./graph.png" width="100%" alt="my expens  es graph">
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- save this for sidebar active link script -->
+  <!-- <script src="https://code.jquery.com/jquery-3.6.3.min.js" -->
+  <!-- integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
